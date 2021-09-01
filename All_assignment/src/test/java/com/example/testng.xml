@@ -1,0 +1,58 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite1">
+<test name="Smoke testing">
+<groups>
+<run>
+<include name="Smoke test" />
+<exclude name="Functional test" />
+</run>
+</groups>
+<classes>
+<class name="com.example.Groups">
+</class>
+</classes>
+
+ </test>
+</suite>
+
+
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite1">
+<test name="Smoke testing" parallel = "methods" thread-count="3">
+ <classes>
+<class name="com.example.Parallel_testing">
+</class>
+</classes>
+ </test>
+</suite>
+ 
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite1">
+<test name="Smoke testing" parallel = "classes" thread-count="1">
+ <classes>
+<class name="com.example.Parallel_testing">
+</class>
+</classes>
+
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite1" parallel = "tests" thread-count="1">
+<test name="Smoke testing">
+<classes>
+<class name="com.example.Parallel_testing">
+</class>
+</classes>
+ 
+ </test>
+</suite>
+-->
+
+
+
+
+
+
+
+
+
